@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vineyard_details_info"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textColor="#0d374c"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/vd_show_map"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ic_btn_map" />
+
+        <TextView
+            android:id="@+id/vd_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="5"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/vd_address"
+            android:background="@color/bg_secondary" />
+
+        <TextView
+            android:id="@+id/vd_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Phone:"
+        android:textColor="#0d374c"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/vd_call"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ic_btn_phone" />
+
+        <TextView
+            android:id="@+id/vd_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="5"
+            android:autoLink="phone"
+            android:gravity="center_vertical"
+            android:textColor="#333333"
+            android:textColorLink="#333333"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Website:"
+        android:textColor="#0d374c"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/vd_visit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ic_btn_browser" />
+
+        <TextView
+            android:id="@+id/vd_url"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="5"
+            android:autoLink="web"
+            android:gravity="center_vertical"
+            android:textColor="#333333"
+            android:textColorLink="#333333"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_accessory"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:id="@+id/vd_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vd_btn_select"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_btn_share" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:gravity="center_vertical"
+                android:text="Share This"
+                android:textColor="#333333"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/vd_socials_check"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:text="checking social feeds..."
+            android:textColor="#333333"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/vd_socials"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_accessory"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/vd_facebook"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_btn_facebook"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/vd_twitter"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ic_btn_twitter"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

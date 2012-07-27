@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        layout="@layout/top_menu_details" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/vd_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="8dp"
+                android:textColor="#0d374c"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TabHost
+                android:id="@android:id/tabhost"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:padding="5dp" >
+
+                        <include
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            layout="@layout/vineyard_details_info" />
+
+                        <include
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            layout="@layout/vineyard_details_actions" />
+
+                        <include
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            layout="@layout/vineyard_details_reviews" />
+                    </FrameLayout>
+                </LinearLayout>
+            </TabHost>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/bottom_menu" />
+
+</LinearLayout>

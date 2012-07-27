@@ -1,0 +1,74 @@
+[
+	{
+		"name": "Diamond Hill Vineyards",
+		"address": "3145 Diamond Hill Road, Cumberland, RI 02864-2929",
+		"phone": "401-333-2751",
+		"url": "http://favorlabel.com/",
+		"rating": "0.000000",
+		"twitter": "",
+		"facebook": "",
+		"gplace_url": "http://maps.google.com/maps/place?cid=17856539482372042202&q=Diamond+Hill+Vineyards+RI&ved=0CBAQ-gswAA&sa=X&ei=egUDT-y2K4qu_AaK87GICg",
+		"lat": "41.9770960",
+		"lon": "-71.4039590"
+	},
+	{
+		"name": "Greenvale Vineyards",
+		"address": "162 West Main Road, Little Compton, RI 02837-1355",
+		"phone": "401-635-8486",
+		"url": "http://sakonnetwine.com/",
+		"rating": "0.000000",
+		"twitter": "",
+		"facebook": "",
+		"gplace_url": "http://maps.google.com/maps/place?cid=4323324205700311890&q=Greenvale+Vineyards+RI&ved=0CHEQ-gswAA&sa=X&ei=egUDT-2oJtDM_Abvy7yMCg",
+		"lat": "41.5320428",
+		"lon": "-71.1972093"
+	},
+	{
+		"name": "Langworthy Farm Winery Inc",
+		"address": "308 Shore Rd, Westerly, RI 02891",
+		"phone": "401-322-7791",
+		"url": "http://langworthyfarm.com/",
+		"rating": "0.000000",
+		"twitter": "",
+		"facebook": "",
+		"gplace_url": "http://maps.google.com/maps/place?cid=7569287880442358985&q=Langworthy+Farm+Winery+Inc+RI&ved=0CBQQ-gswAA&sa=X&ei=egUDT6yCKJee_Abhz6D4CQ",
+		"lat": "41.3423779",
+		"lon": "-71.7688010"
+	},
+	{
+		"name": "Newport Vineyards",
+		"address": "909 East Main Road, Middletown, RI 02842",
+		"phone": "401-848-5161",
+		"url": "http://newportvineyards.com/",
+		"rating": "0.000000",
+		"twitter": "http://twitter.com/#!/NewportWines",
+		"facebook": "http://www.facebook.com/pages/Newport-Vineyards/87417673944",
+		"gplace_url": "http://maps.google.com/maps/place?cid=11337956862474426939&q=Newport+Vineyards+RI&ved=0CBcQ-gswAA&sa=X&ei=egUDT-TeJoGQ_AbOx8mbCg",
+		"lat": "41.5292990",
+		"lon": "-71.2726280"
+	},
+	{
+		"name": "Sakonnet Vineyards",
+		"address": "162 West Main Road, Little Compton, RI 02837-1355",
+		"phone": "401-635-8486",
+		"url": "http://sakonnetwine.com/",
+		"rating": "0.000000",
+		"twitter": "",
+		"facebook": "",
+		"gplace_url": "http://maps.google.com/maps/place?cid=4323324205700311890&q=Sakonnet+Vineyards+RI&ved=0CBQQ-gswAA&sa=X&ei=egUDT_DtJ4Li4QTLyNWRAQ",
+		"lat": "41.5320428",
+		"lon": "-71.1972093"
+	},
+	{
+		"name": "Shelalara Vineyards and Winery",
+		"address": "162 West Main Road, Little Compton, RI 02837-1355",
+		"phone": "401-635-8486",
+		"url": "http://sakonnetwine.com/",
+		"rating": "0.000000",
+		"twitter": "",
+		"facebook": "",
+		"gplace_url": "http://maps.google.com/maps/place?cid=4323324205700311890&q=Shelalara+Vineyards+and+Winery+RI&ved=0CFcQ-gswAA&sa=X&ei=egUDT-__J5OQ4gS53JEO",
+		"lat": "41.5320428",
+		"lon": "-71.1972093"
+	}
+]

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/list_selector_background"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="5dip"
+        android:layout_weight="2.7"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/li_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_secondary"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/li_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_accessory"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/li_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_accessory"
+            android:textSize="11sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/li_call"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/ic_btn_phone" />
+
+            <Button
+                android:id="@+id/li_show_map"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/ic_btn_map" />
+
+            <Button
+                android:id="@+id/li_add_to_itinerary"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_btn_add"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/li_rate"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/vd_btn_select"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RatingBar
+            android:id="@+id/li_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/li_distance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/text_accessory"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

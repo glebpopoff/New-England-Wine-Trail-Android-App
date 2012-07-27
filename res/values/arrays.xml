@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="states_images">
+        <item>@drawable/ic_flag_ct</item>
+        <item>@drawable/ic_flag_me</item>
+        <item>@drawable/ic_flag_ma</item>
+        <item>@drawable/ic_flag_nh</item>
+        <item>@drawable/ic_flag_ri</item>
+        <item>@drawable/ic_flag_vt</item>
+        <item>@drawable/ic_flag_ny</item>
+    </array>
+</resources>

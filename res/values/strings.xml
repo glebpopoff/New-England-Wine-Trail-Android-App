@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">New England Wine Trail</string>
+    <string name="app_teaser">New England Wine Trail Application</string>
+    
+    <string name="details_notes">Enter your notes here to keep track of this vineyard</string>
+    <string name="details_itinerary_add">Add to your itinerary</string>
+    <string name="details_itinerary_remove">Remove from your itinerary</string>
+    <string name="details_itinerary_view">View your itinerary</string>
+    <string name="api_key">0LY5mwmNX1e_iwE72Inh3GCF6ZXXZRmf7DxKsuQ</string>
+    <!-- release: 0j1hIUrk0km9C_S64T5zQlYr6L8TkTbUifE2C0Q -->
+    <!-- debug: 0j1hIUrk0km8aKV6MWFAh_l_IWOCU4d1xWxp3lg -->
+    
+    <string-array name="states_names">
+        <item>Connecticut</item>
+        <item>Maine</item>
+        <item>Massachusetts</item>
+        <item>New Hampshire</item>
+        <item>Rhode Island</item>
+        <item>Vermont</item>
+        <item>Long Island</item>
+    </string-array>
+    
+    <string-array name="urls">
+        <item>connecticut</item>
+        <item>maine</item>
+        <item>massachusetts</item>
+        <item>new_hampshire</item>
+        <item>rhode_island</item>
+        <item>vermont</item>
+        <item>long_island</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="bg_primary">#0d374c</color>
+   <color name="bg_secondary">#97bb33</color><!-- #bc5b41 -->
+   <color name="bg_accessory">#9bcfe7</color>
+   <color name="text_primary">#0d374c</color>
+   <color name="text_secondary">#256D0F</color><!-- #bc5b41 -->
+   <color name="text_accessory">#333333</color><!-- #4e1405 -->
+</resources>
